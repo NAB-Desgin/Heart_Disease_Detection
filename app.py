@@ -8,7 +8,7 @@ with st.sidebar:
     st.title("Heart Disease Prediction")
 
 df=pd.read_csv("cleaned_data.csv")
-with open("log_model.joblib","rb")as file:
+with open("Log_model.joblib","rb")as file:
     model=joblib.load(file)
 
 with st.container(border=True):
