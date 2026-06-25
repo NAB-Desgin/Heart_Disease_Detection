@@ -174,7 +174,7 @@ with st.sidebar:
 # ---------------- LOAD MODEL ----------------
 
 
-with open("log_model.joblib","rb") as file:
+with open("Log_model.joblib","rb") as file:
 
     model = joblib.load(file)
 
